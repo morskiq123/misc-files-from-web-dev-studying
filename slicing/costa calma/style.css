@@ -1,0 +1,838 @@
+body,html{
+  padding:0px;
+  margin: 0 auto;
+}
+
+.wrapper{
+  width:100%;
+  position: relative
+}
+
+.container{
+  width: 1180px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.headerTop{
+  height:40px;
+  width:100%;
+  border-bottom:2px solid #b7b7b7;
+}
+
+.contactNumber{
+  font-family: 'Lora', serif;
+  font-size:14px;
+  color:#a3a3a3;
+  padding-top:8px;
+  float:left;
+}
+
+.contactEmail{
+  font-family: 'Lora', serif;
+  font-size:14px;
+  color:#a3a3a3;
+  float:left;
+  margin-left:55px;
+  padding-top:8px;
+}
+
+.emailContact{
+  font-family: 'Lora', serif;
+  font-size:14px;
+  color:#f5a41c;
+  padding-top:8px;
+  float:left;
+  margin-left:5px;
+}
+
+.headerBottom{
+  height:130px;
+  width:100%;
+}
+
+.iphoneMenu{
+  display:none;
+}
+
+.menu{
+  list-style-type: none;
+  float:left;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+
+.menu li{
+  font-family:  'Lora', sans-serif;
+  font-weight: bold;
+  font-size:14px;
+  line-height:65px;
+  float:left;
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+}
+
+.menu li:first-child{
+    padding-left:0;
+}
+
+.menu li:last-child{
+    padding-right:20px;
+    float:right;
+
+}
+
+
+.menu li a{
+  font-family:  'Lora', sans-serif;
+  font-weight: bold;
+  font-size:14px;
+  line-height:65px;
+  float:left;
+  display: inline-block;
+  padding: 25px 60px 0px 0px;
+  text-decoration: none;
+  color:black;
+}
+
+.menu li .keys{
+  background-image: url("keys.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 55px;
+  width:150px;
+  padding-top:0;
+  text-align:center;
+  line-height:55px;
+  margin-top:30px;
+  border-style: inset;
+  border-width: 2px;
+  border-color: #a10202;
+}
+
+.menu li a:hover{
+  color:#f5a41c;
+}
+
+
+.menu li:first-child a{
+    padding-left:0;
+}
+
+.menu li:last-child a{
+    padding-right:0;
+    color:white;
+}
+
+.menu li:hover{
+  color:#f5a41c;
+}
+
+.headerImage{
+  height:760px;
+  width:100%;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.headerh1{
+  font-family:  'Lora', sans-serif;
+  font-weight: bold;
+  font-size:32px;
+  color:white;
+  position:absolute;
+  margin:153px 0px 0px 672px;
+}
+
+.headerh2{
+  font-family:  'Lora', sans-serif;
+  font-weight: bold;
+  font-size:72px;
+  color:white;
+  position:absolute;
+  margin:189px 0px 0px 450px;
+}
+
+.headerh3{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size:24px;
+  color:white;
+  position:absolute;
+  margin:510px 0px 0px 500px;
+}
+
+.headerArrow{
+  color:white;
+  position:absolute;
+  margin:600px 0px 0px 750px;
+}
+
+.reservations{
+  width:1065px;
+  height:162px;
+  display:block;
+  position:absolute;
+  margin:700px 0px 0px 270px;
+  box-shadow: 1px 0px 5px 5px rgba(199,191,199,0.07);
+  z-index:2;
+}
+
+.booking{
+  width:800px;
+  height:100%;
+  float:left;
+  background-color:white;
+}
+
+.left{
+  width:265px;
+  height:100%;
+  float:left;
+}
+
+.mid{
+  width:270px;
+  height:100%;
+  float:left;
+}
+
+.right{
+  width:265px;
+  height:100%;
+  float:left;
+}
+
+.bookingText{
+  font-family:  'Lora', sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  color:#b6b6b6;
+  position:absolute;
+  margin:45px 0px 0px 35px;
+}
+
+.bookingBigNumber{
+  font-family:  'Lora', sans-serif;
+  font-size:64px;
+  font-weight:bold;
+  position:absolute;
+  margin:75px 0px 0px 35px;
+}
+
+.bookingSmallNumber{
+  font-family:  'Lora', sans-serif;
+  font-size:24px;
+  font-weight:bold;
+  position:absolute;
+  margin:105px 0px 0px 95px;
+  line-height:40px;
+}
+
+.bookingArrow{
+  position:absolute;
+  margin:120px 0 0 215px;
+}
+
+.bookingArrow-right{
+  margin: 120px 0px 0px 144px;
+}
+
+.line{
+  height:105px;
+  width:2px;
+  background-color:#e5e5e5;
+  float:right;
+  margin-top:28px;
+}
+
+.bookingButtonContainer{
+  background-color:#c4d7e6;
+  height:100%;
+  width:265px;;
+  float:left;
+}
+
+.bookingButton{
+  width:190px;
+  height:50px;
+  background-color:#84a017;
+  position:absolute;
+  font-family:  'Lora', sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  line-height:50px;
+  text-align:center;
+  color:white;
+  margin: 57px 0px 0px 35px;
+  border-style:groove;
+  border-color:#678b00;
+  border-width:2px;
+}
+
+.welcomeWrapper{
+  width:100%;
+  position: relative;
+  background-image: url("circles.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.welcome{
+  height:960px;
+  width:auto;
+}
+
+.welcomeTitle{
+  position:relative;
+  padding:185px 0px 0px 480px;
+  font-family:  'Lora', sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  letter-spacing: 2px;
+  color:#b6b6b6;
+}
+
+.welcomeImage{
+  height:auto;
+  width:50%;
+  float:left;
+  position:absolute;
+  margin:50px 0px 0px -155px;
+}
+
+.welcomeLeft{
+  width:50%;
+  height:auto;
+  float:left;
+}
+
+.welcomeRight{
+  width:50%;
+  height:auto;
+  float:left;
+}
+
+.welcomeLine{
+  width:135px;
+  height:5px;
+  background-color:black;
+  float:left;
+  margin:110px 0px 0px 590px;
+}
+
+.welcomeh1{
+  position:relative;
+  margin:30px 0px 0px 590px;
+  font-family:  'Lora', sans-serif;
+  font-size:36px;
+  font-weight:bold;
+  color:black;
+  width:100%;
+  height:100%;
+}
+
+.welcomep1{
+  position:relative;
+  margin:40px 0px 0px 590px;
+  font-family:  'Lora', sans-serif;
+  font-size:16px;
+  color:#b6b6b6;
+  width:100%;
+  height:100%;
+}
+
+.welcomep2{
+  position:relative;
+  margin:30px 0px 0px 590px;
+  font-family:  'Lora', sans-serif;
+  font-size:16px;
+  color:#b6b6b6;
+  width:100%;
+  height:100%;
+}
+
+.welcomeMap{
+  position:relative;
+  margin:50px 0px 0px 590px;
+  font-family:  'Lora', sans-serif;
+  font-weight:bold;
+  font-size:16px;
+  color:black;
+  width:100%;
+  height:100%;
+}
+
+.bookingWrapper{
+  width:100%;
+  height:360px;
+  position: relative;
+  background-image: url("bed.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.bookARoom{
+  position:absolute;
+  margin:168px 0px 0px 482px;
+  font-family:  'Lora', sans-serif;
+  font-weight:bold;
+  font-size:36px;
+  color:white;
+}
+
+.map{
+  width:auto;
+  height:auto;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+.contactInfo{
+  float:left;
+  width:auto;
+  height:auto;
+  margin:0;
+  padding:0;
+}
+
+.contactInfoLine{
+  width:135px;
+  height:5px;
+  background-color:black;
+
+  margin: 60px 0px 0px 90px;
+}
+
+.contactInfoh1{
+  margin:10px 0px 0px 90px;
+  font-family:  'Lora', sans-serif;
+  font-weight:bold;
+  font-size:12px;
+  color:#b6b6b6;
+
+}
+
+.contactInfoh2{
+  margin:20px 0px 0px 90px;
+  font-family:  'Lora', sans-serif;
+  font-weight:bold;
+  font-size:36px;
+  color:black;
+}
+
+.contactInfoh3{
+  margin: 85px 0px 0px 90px;
+  font-family:  'Lora', sans-serif;
+  font-weight:bold;
+  font-size:22px;
+  color:black;
+  float:left;
+}
+
+.contactInfoLocation{
+  margin: 85px 0px 0px 0px;
+  font-family:  'Lora', sans-serif;
+  font-size:22px;
+  color:#b6b6b6;
+  float:left;
+}
+
+.contactInfop1{
+  height:auto;
+  width:450px;
+  margin: 20px 0px 0px 90px;
+  font-family:  'Lora', sans-serif;
+  font-size:16px;
+  color:#b6b6b6;
+}
+
+.contactInfoEMail{
+  margin: 65px 0px 0px 90px;
+  font-family:  'Lora', sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  float:left;
+}
+
+.contactInfoEMailAddress{
+  margin: 65px 0px 0px 0px;
+  float:left;
+  font-family:  'Lora', sans-serif;
+  font-size:16px;
+  color:#b6b6b6;
+}
+
+.contactInfoCall{
+  margin:90px 0px 0px 90px;
+  font-family:  'Lora', sans-serif;
+  font-size:16px;
+  color:#5e5e5e;
+}
+
+.contactInfoNumber{
+  margin:5px 0px 0px 90px;
+  font-family:  'Lora', sans-serif;
+  font-size:26px;
+  font-weight:bold;
+}
+
+footer{
+  background:#211f20;
+  height:400px;
+  width:100%;
+  float:left;
+  padding:0px;
+  margin:0px;
+}
+
+.footerList{
+  font-family:  'Lora', sans-serif;
+  font-size:14px;
+  color:white;
+  margin-top:10px;
+}
+
+.footerUnmarkedList1{
+  list-style-type:none;
+  float:left;
+  width:auto;
+  height:auto;
+  margin:80px 0px 0px 0px;
+}
+
+.footerUnmarkedList2{
+  list-style-type:none;
+  float:left;
+  width:auto;
+  height:auto;
+  margin:80px 0px 0px 100px;
+}
+
+.footerUnmarkedList3{
+  list-style-type:none;
+  float:left;
+  width:auto;
+  height:auto;
+  margin:80px 0px 0px 130px;
+}
+
+.footerUnmarkedList4{
+  list-style-type:none;
+  float:left;
+  width:auto;
+  height:auto;
+  margin:80px 0px 0px 150px;
+}
+
+.footerLine{
+  width:100%;
+  height:2px;
+  background-color:#5d5c5c;
+  position:absolute;
+  margin-top:10px;
+}
+
+.footerCredits{
+  width:100%;
+  height:70px;
+  position:absolute;
+  line-height:70px;
+  font-family:  'Lora', sans-serif;
+  font-size:14px;
+  color:#5d5c5c;
+  float:left;
+}
+
+.footerCredits a{
+  text-decoration:none;
+  line-height:70px;
+  font-family:  'Lora', sans-serif;
+  font-size:14px;
+  color:white;
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  .container{
+    width:100%;
+  }
+
+  .iphoneClearfix{
+    clear:both;
+  }
+
+  .headertop{
+    height:auto;
+    width:100%;
+  }
+
+  .contactNumber{
+    font-size:12px;
+  }
+
+  .contactEmail{
+    display:none;
+  }
+
+  .emailContact{
+    font-size:12px;
+    float:right;
+  }
+
+  .headerBottom{
+    width: 100%;
+    height: 70px;
+    display: block;
+  }
+
+  .menu{
+    display: none;
+    float: initial;
+    height: auto;
+    position: relative;
+    z-index:1;
+  }
+
+  .menu li{
+    position:relative;
+    width:100%;
+    padding:0;
+    margin:0;
+    background-color:white;
+    height:auto;
+  }
+
+  .menu li a{
+    position:relative;
+    height:auto;
+    width:100%;
+    padding:0;
+    margin:0 0 0 0;
+    color:black;
+    text-align:center;
+  }
+
+  .menu li a:last-child{
+    color:black;
+    text-align:center;
+    width:100%;
+    height:auto;
+  }
+
+  .menu li .keys{
+    background-image:none;
+    border:none;
+    margin: 0 0 0 6%;
+    padding:0;
+  }
+
+  .iphoneMenu{
+    display:block;
+    padding:2.5% 0px 0px 45%;
+  }
+
+  .headerImage{
+    width:100%;
+    height:667px;
+  }
+
+  .headerh1{
+    font-size:28px;
+    margin: 30% 0 0 25%;;
+  }
+
+  .headerh2{
+    font-size: 36px;
+    margin: 50% 0 0 5%;
+  }
+
+  .headerh3{
+    font-size:20px;
+    margin: 130% 0 0 5%;
+    text-align:center;
+  }
+
+  .headerArrow{
+    display:none;
+  }
+
+  .bookingArrow{
+    display:none;
+  }
+
+  .bookingArrow-right{
+    display:none;
+  }
+
+  .booking{
+    width:100%;
+    height:100%;
+  }
+
+  .reservations{
+    position:relative;
+    margin:667px 0 0 0;
+    width:100%;
+    height:auto;
+    float:left;
+    padding:0;
+    z-index:1;
+  }
+
+  .left{
+    position:relative;
+    width:375px;
+    height:160px;
+    padding:0px;
+    float:initial;
+  }
+
+  .mid{
+    position:relative;
+    width:375px;
+    height:160px;
+    padding:0px;
+    float:initial;
+  }
+
+  .right{
+    position:relative;
+    width:375px;
+    height:160px;
+    padding:0px;
+    float:initial;
+  }
+
+  .bookingButtonContainer{
+    display:none;
+  }
+
+  .line{
+    display:none;
+  }
+
+  .welcomeWrapper{
+    background-image:none;
+  }
+
+  .welcome{
+    height:auto;
+  }
+
+  .welcomeTitle{
+    display:none;
+  }
+
+  .iphoneImage{
+    height:auto;
+    width:100%;
+  }
+
+  .welcomeLeft{
+    width:100%;
+    height:auto;
+  }
+
+  .welcomeRight{
+    width:100%;
+    height:auto;
+    position:relative;
+  }
+
+
+  .welcomeImage{
+    height:auto;
+    width:100%;
+    margin:0;
+    position:relative;
+  }
+
+  .welcomeLine{
+    display:none;
+  }
+
+  .welcomeh1,.welcomep1,.welcomep2{
+    margin:2% 0 0 2%;
+    padding:0;
+    width:90%;
+    height:auto;
+  }
+
+  .welcomeMap{
+    display:none;
+  }
+
+  .bookingWrapper{
+    display:none;
+  }
+
+  .bookARoom{
+    display:none;
+    color:white;
+    margin:42% 0 0 22%;
+  }
+
+  .map{
+    height:auto;
+    width:100%;
+  }
+
+  .contactInfoLine{
+    display:none;
+  }
+
+  .contactInfoh1,.contactInfoh2,.contactInfoh3,.contactInfoEMail,.contactInfoCall{
+    margin:5% 0 0 2%;
+    padding:0;
+  }
+
+  .contactInfop1{
+    margin:0;
+    padding:0;
+    margin:5% 0 0 2%;
+    width:90%;
+    height:100%;
+  }
+
+  .contactInfoLocation{
+    margin-top:5%;
+  }
+
+  .contactInfoEMailAddress{
+    margin-top:5%;
+  }
+
+  .contactInfoNumber{
+    margin-left:0;
+  }
+
+  footer{
+    height:auto;
+  }
+
+  .footerUnmarkedList1,.footerUnmarkedList2,.footerUnmarkedList3,.footerUnmarkedList4{
+    margin:7% 0 0 2%;
+    padding-left:2%;
+    float:left;
+    height: 100%;
+    width: 90%;
+  }
+
+  .footerCredits{
+    position:relative;
+    margin:0;
+    height:100%;
+  }

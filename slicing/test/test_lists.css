@@ -1,0 +1,65 @@
+ul{
+  background-color: yellow;
+  font-size:50px;
+  color:white;
+}
+
+ul li{
+  background-color:blue;
+  font-size:30px;
+}
+
+ul li a{
+  background-color:white;
+
+}
+
+ul li ul {
+  background-color:green;
+}
+
+ul li ul li{
+  background-color:red;
+
+}
+
+
+.list{
+  background-color:pink;
+}
+
+.list .line{
+  color: white;
+}
+
+.list. .line .link{
+  font-size:50px;
+}
+
+.list .line .link .list2{
+  font-style:italic;
+}
+
+.list .line .link .list2 .line2{
+    border: 10px black;
+}
+
+ul.list{
+  background-color:pink;
+}
+
+ul.list li.line{
+  color: white;
+}
+
+ul.list. li.line a.link{
+  font-size:50px;
+}
+
+ul.list li.line a.link ul.list2{
+  font-style:italic;
+}
+
+ul.list li.line a.link ul.list2 li.line2{
+    border: 10px black;
+}

@@ -1,0 +1,36 @@
+ul{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size:12px;
+  
+}
+
+ul li{
+  float:left;
+  list-style-type: none;
+  margin: 20px;
+  background-color:pink;
+}
+
+ul li ul{
+  display:none;
+}
+
+ul li div{
+  display:none;
+}
+
+ul li:hover ul{
+  display:block;
+}
+
+ul li:hover div{
+  display:block;
+  width:240px;
+  height:140px;
+
+}
+
+.submenu{
+  color:white;
+}

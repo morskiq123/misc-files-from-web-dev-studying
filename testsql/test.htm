@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> Work HTML </title>
+<link rel="stylesheet" href="test.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+<div class = "imgContainer">
+  <img src="logo.png" alt="logo" width = 20%>
+</div>
+
+<div class = "tableColor">
+  <div class = "tableContainer">
+    <ul class= "headings">
+      <li> Home </li>
+      <li>
+        <a href="https://cnn.com" id="link"> About us </a>
+        <ul>
+          <li> 1 </li>
+          <li> 2 </li>
+          <li> 3 </li>
+        </ul>
+      </li>
+      <li> Our story</li>
+      <li> Contacts</li>
+    </ul>
+   </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  var w = window.innerWidth;
+    if (w>600){
+      $("#link").click(function(event){
+        event.preventDefault();
+        console.log(w);
+    });
+  };
+});
+
+</script>
+
+
+
+</body>
+</html>
